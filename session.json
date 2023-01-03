@@ -110,16 +110,7 @@
           "data": "q2UY7c374KXJ/G9U/2sMtDS/bGxUYt6oD8x2biXgDFQ="
         }
       },
-      "5": {
-        "private": {
-          "type": "Buffer",
-          "data": "aItQX6jpjB3+wajZ5soy3G6lF3eou8TeoyXlnAPCKlE="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "p2rHx0Ve+bCvoNpMy3nkuTIUIxBdIucq7//Cro4aEl8="
-        }
-      },
+      "5": null,
       "6": {
         "private": {
           "type": "Buffer",
@@ -587,6 +578,49 @@
           }
         },
         "version": "v1"
+      },
+      "6289510497533.0": {
+        "_sessions": {
+          "BetlvSx0cLcIJzBrq49kAEdK0ATgq3VjY/1Dh8b2sMVS": {
+            "registrationId": 980389593,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BWQeOw6VYdTjLBMxK6u5Typjd4t7ZwmxJl4CM4N0RAMV",
+                "privKey": "SAqqxjITAygpdEJ4/Hp3Eg1hP4guYAM5couaoJLMYWo="
+              },
+              "lastRemoteEphemeralKey": "BQbHIOr5JueJ5sKuXnn0dmJz+1ZJBbLSKgkLehyPyZNg",
+              "previousCounter": 0,
+              "rootKey": "/atDSnEuO/JnfzigEHeu7wWeRX5y+RJOnG2EJ/659ow="
+            },
+            "indexInfo": {
+              "baseKey": "BetlvSx0cLcIJzBrq49kAEdK0ATgq3VjY/1Dh8b2sMVS",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1672706733641,
+              "created": 1672706733641,
+              "remoteIdentityKey": "BSCL3bMGTYSrpMgwqZNuIMsBNKD0Izwi6hOIAXxi8PRt"
+            },
+            "_chains": {
+              "BQbHIOr5JueJ5sKuXnn0dmJz+1ZJBbLSKgkLehyPyZNg": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "m0t3E7K+pSEfrQgQNsFa2BW8Nwh9r4T8g4/UtTmrr3g="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BWQeOw6VYdTjLBMxK6u5Typjd4t7ZwmxJl4CM4N0RAMV": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "R+3EJdvBv8ONJ44JYGIpNzM09fJMudBXD7VHrqC58ZA="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
+          }
+        },
+        "version": "v1"
       }
     },
     "appStateSyncKeys": {
@@ -636,6 +670,51 @@
             "valueMac": {
               "type": "Buffer",
               "data": "crYJ1YAercjSNfNcBkBA20RjqDvwJ6UuZG11e2u39g4="
+            }
+          }
+        }
+      },
+      "regular_low": {
+        "version": 1,
+        "hash": {
+          "type": "Buffer",
+          "data": "iqS6bczOWf4aegBk2qNAY/NsEEoIqPcwh8ytlurDKjEz9hMJ3nTCJR5JbagiUdKZ5GPWmHMBI1q+4UuTDmIc75PRwMntdsSGH75kcade7+EheGSWSA8tqRCLX2qcfK7f1jCuyC6f5bF7t2VZntpV/kvYrqkqsUZ1gh5W9pI3PpA="
+        },
+        "indexValueMap": {
+          "Y8l81gnFqbWlklGf1sZRpZLxFGDurn+B2zuSCFkBmmw=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "6iNevgu2oRyv0mMwZCXmvnn6/YCXlc1Dzgq2tpjnGSE="
+            }
+          },
+          "UUQvR5DMKaUPp5MtQOYUorpUSHUt6Ls5WqrqgUTQRGc=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "T3ZWdGvYdYZxINFFWIoRNX0EbSuR45GCJ4RCf/dAFRk="
+            }
+          },
+          "3JWuiS0iak8hGYIofiiFkgZ+mvGpt0Pq5J1bevFz27U=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "Q4JxtHSjvzhsgbCXaI90uhyv20vE6vFj4+RreP7tsTs="
+            }
+          },
+          "Y6LW16/Kal+w6PcShg2RaKm6pqnqrUg9kJmN82E0vr0=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "XTdBoYI3ryYkC2GwB/ee9LZU5j2hp/A0Fsw15PE9pic="
+            }
+          },
+          "qfIGoQB0Ku6h982ud3OHAjr2a960reZN5fAWcnBRWPU=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "cBcRACmIFX6vvIK0dFqh5fUIEo2H76giWlVGoGrR9+o="
+            }
+          },
+          "TFCkSGZNq+U+8aorqgsD6ry8bf9nlka0Ynvn5+WN2Kg=": {
+            "valueMac": {
+              "type": "Buffer",
+              "data": "yHELkYbe0OxIkndhR0cUoz2ELxwrHRtrvOA6kMYR7Jw="
             }
           }
         }
